@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 import gridfs
 import certifi
-from test_info import UserData
+from Scripts.test_info import UserData
 
 
 def mongo_conn(username, password):
